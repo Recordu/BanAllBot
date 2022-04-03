@@ -1,0 +1,6 @@
+*.session
+*.pyc
+*.log
+*.env
+*.db
+_bot.session-journal

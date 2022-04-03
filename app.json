@@ -1,0 +1,49 @@
+{
+    "name": "LEGENDSESSION",
+    "description": "A bot CAN DO ANYTHING",
+    "logo": "",
+    "keywords": [
+        "TELETHON",
+        "LEGENDBOY",
+        "Telegram Bot",
+        "piro bolte",
+        "Its_LegendBoy"
+    ],
+    "website": "",
+    "success_url": "https://telegram.dog/Its_LegendBoy",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "DATABASE_URL": {
+            "description": "Your Name Plz",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        },
+        "SUDO_USERS": {
+            "description": "Sudo users list",
+            "value": ""
+        }
+      
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}

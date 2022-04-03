@@ -1,0 +1,4 @@
+API_ID=API_UD
+API_HASH="API_HASH"
+BOT_TOKEN=BotToken
+DATABASE_URL=sqlite:///my_db.db #example for sqlite
